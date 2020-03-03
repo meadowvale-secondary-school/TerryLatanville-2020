@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:1 Playground Basics"
+      name = "1 Playground Basics">
+      <FileRef
+         location = "group:PlaygroundBasics.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:2 Naming and Indentifiers"
+      name = "2 Naming and Indentifiers">
+      <FileRef
+         location = "group:Naming.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:3 Strings"
+      name = "3 Strings">
+      <FileRef
+         location = "group:Strings.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:4 Hello World"
+      name = "4 Hello World">
+      <FileRef
+         location = "group:HelloWorld.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:6 Functions"
+      name = "6 Functions">
+      <FileRef
+         location = "group:Functions.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:7 BoogieBot"
+      name = "7 BoogieBot">
+      <FileRef
+         location = "group:BoogieBot.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:8 Constants and Variables"
+      name = "8 Constants and Variables">
+      <FileRef
+         location = "group:Variables.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:9 Types"
+      name = "9 Types">
+      <FileRef
+         location = "group:Types.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:10 Parameters and Results"
+      name = "10 Parameters and Results">
+      <FileRef
+         location = "group:ParametersAndResults.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:11 Making Decisions"
+      name = "11 Making Decisions">
+      <FileRef
+         location = "group:MakingDecisions.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:12 Instances"
+      name = "12 Instances">
+      <FileRef
+         location = "group:InstancesMethodsProperties.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:13 QuestionBot"
+      name = "13 QuestionBot">
+      <FileRef
+         location = "group:QuestionAnswerer.playground">
+      </FileRef>
+      <Group
+         location = "group:QuestionBot"
+         name = "QuestionBot">
+         <FileRef
+            location = "group:QuestionBot.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:QuestionBot"
+            name = "QuestionBot">
+            <FileRef
+               location = "group:ViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:enabled.imageset"
+                  name = "enabled.imageset">
+                  <FileRef
+                     location = "group:selected@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:selected@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:selected.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:disabled.imageset"
+                  name = "disabled.imageset">
+                  <FileRef
+                     location = "group:unselected@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:unselected@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:unselected.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:QuestionAnswerer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:14 Arrays and Loops"
+      name = "14 Arrays and Loops">
+      <FileRef
+         location = "group:ArraysAndLoops.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:15 Defining Structures"
+      name = "15 Defining Structures">
+      <FileRef
+         location = "group:Structures.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:16 QuestionBot 2"
+      name = "16 QuestionBot 2">
+      <Group
+         location = "group:ChatBot"
+         name = "ChatBot">
+         <FileRef
+            location = "group:ChatBot.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:ChatBot"
+            name = "ChatBot">
+            <FileRef
+               location = "group:ConversationCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AskCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Message.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:thinking1.imageset"
+                  name = "thinking1.imageset">
+                  <FileRef
+                     location = "group:thinking1@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:thinking1@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:thinking2.imageset"
+                  name = "thinking2.imageset">
+                  <FileRef
+                     location = "group:thinking2@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:thinking2@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:thinking3.imageset"
+                  name = "thinking3.imageset">
+                  <FileRef
+                     location = "group:thinking3@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:thinking3@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:QuestionAnswerer.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ThinkingCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ConversationDataSource.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ConversationViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:18 Adaptive User Interfaces"
+      name = "18 Adaptive User Interfaces">
+      <Group
+         location = "group:Resources"
+         name = "Resources">
+         <Group
+            location = "group:ElementQuiz"
+            name = "ElementQuiz">
+            <FileRef
+               location = "group:Sodium.png">
+            </FileRef>
+            <FileRef
+               location = "group:Chlorine@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Gold@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Gold@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Chlorine@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Carbon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Chlorine.png">
+            </FileRef>
+            <FileRef
+               location = "group:Carbon@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Carbon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Sodium@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Sodium@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Gold.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:AnimalSounds"
+            name = "AnimalSounds">
+            <FileRef
+               location = "group:SimpleSound.swift">
+            </FileRef>
+            <FileRef
+               location = "group:woof.m4a">
+            </FileRef>
+            <FileRef
+               location = "group:moo.m4a">
+            </FileRef>
+            <FileRef
+               location = "group:meow.m4a">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:19 Enumerations and Switch"
+      name = "19 Enumerations and Switch">
+      <FileRef
+         location = "group:EnumsAndSwitch.playground">
+      </FileRef>
+   </Group>
+</Workspace>

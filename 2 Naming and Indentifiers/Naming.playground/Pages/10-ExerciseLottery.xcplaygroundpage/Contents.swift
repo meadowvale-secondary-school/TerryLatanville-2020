@@ -5,10 +5,10 @@
  Another reason that naming things and only setting a value once is useful is that it lets you decide on the correct way of calculating something, then change the values and check the answers.
 */
 // Values you should edit
-let ticketsSold = 1000
-let ticketPrice = 1
+let ticketsSold = 100000
+let ticketPrice = 2
 let printingCosts = 20
-let advertising = 50
+let advertising = 500
 /*:
  - callout(Exercise): You’ve done enough work for free for your friend. For this venture, your friend will give you a cut of the profits in return for your help. Your friend will give you a tenth of the profits. The jackpot is half of the total ticket sales money. Try changing the numbers above - tickets sold, ticket price, printing or advertising costs and see if you can get your cut up to 100 or more.
 

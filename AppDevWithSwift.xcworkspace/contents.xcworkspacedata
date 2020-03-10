@@ -350,4 +350,11 @@
          </Group>
       </Group>
    </Group>
+   <Group
+      location = "group:19 Enumerations and Switch"
+      name = "19 Enumerations and Switch">
+      <FileRef
+         location = "group:EnumsAndSwitch.playground">
+      </FileRef>
+   </Group>
 </Workspace>

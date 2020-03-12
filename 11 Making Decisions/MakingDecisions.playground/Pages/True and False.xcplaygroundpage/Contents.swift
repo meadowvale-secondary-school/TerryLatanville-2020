@@ -15,7 +15,7 @@ yes
 let no = false
 no
 //: The values `true` and `false` are known as _Boolean values_, named after George Boole, a 19th century mathematician who realized how important it is to ask clear questions with simple answers. The `Bool` type is used in Swift to represent Boolean values. The _only_ possible `Bool` values are true and false. The following line of code would give an error:
-//let perhaps = maybe
+let perhaps = maybe
 //: If `true` and `false` are the answers, how do you ask the questions?
 //:
 //: [Previous](@previous)  |  page 2 of 13  |  [Next: Equality](@next)

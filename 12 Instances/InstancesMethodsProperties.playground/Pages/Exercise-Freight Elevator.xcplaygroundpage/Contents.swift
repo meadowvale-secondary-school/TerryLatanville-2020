@@ -6,8 +6,39 @@
  - callout(Exercise):
  Create three constants for items of different weights that you'd like to bring up to your fort: one less than 100, one between 100 and 1000, and one over 1000.
  */
+// String
+// Int
+// Float
+// Double
+// var myString: String = "Hello World"
+// let myOtherString: String = "Goodbye World"
 
+struct MyTreehousePulley {
+    // MARK: - Properties
+    let weightCapacity: Int
+    var load = 0
+    static var shared = MyTreehousePulley(weightCapacity: 2000)
 
+    // MARK: - Initializer
+    init(weightCapacity: Int) {
+        self.weightCapacity = weightCapacity
+    }
+
+    // MARK: - Functions
+    mutating func addLoadToBasket(_ weight: Int) {
+        load += weight
+    }
+
+//    static func addLoadToBasket(_ weight: Int) {
+//        shared.addLoadToBasket(weight)
+//    }
+}
+
+var strongerRope = MyTreehousePulley(weightCapacity: 2000)
+var ricketyRope2 = MyTreehousePulley(weightCapacity: 200)
+
+// MyTreehousePulley.addLoadToBasket(60 * 3)
+TreehousePulley.addLoadToBasket(60 * 3)
 
 /*:
  - callout(Exercise):
@@ -16,6 +47,10 @@
  */
 
 var ricketyRope = TreehousePulley(weightCapacity: 200)
+
+
+
+
 /*:
  - callout(Exercise):
  Use the `TreehousePulley` type's `addLoadToBasket` method to add the items you defined above. Add three of the lightest item, two of the middle-weight item, and one of the heaviest item. Add the items to the lightweight pulley first, using the `canHandleAdditionalLoad` method to check whether the item would overload the pulley, then move on to your stronger pulley when the first is fully loaded.\
